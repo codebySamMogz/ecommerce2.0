@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+.main{
+ margin-left: 50px;
+ margin-right: 50px;
+}
+header{
+    margin-top: 20px;
+}
+.lgphoto{
+    height: 50px;
+    width: 50px;
+}
+.logo{
+    color: orange;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    float: right;
+    word-spacing: 30px;
+    margin-top: -50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: orange;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar a:hover{
+    color: rgb(255, 204, 109);
+}
+.imglogo{
+    float: right;
+    margin-right: 250px;
+    margin-left: -50px;
+}
+.bgimage{
+    width: 400px;
+    height: 600px;
+}
+.des{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.btn{
+    margin-top: 50px;
+}
+.btn .b{
+    background-color: orange;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: orange;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+}
+.btn .b:hover{
+    background-color: white;
+    color: orange;
+    border-color: orange;
+    transition: 0.3s ease-in-out;
+}
+
+/* -------- */
+
+.container{
+    background-color: rgba(0, 0, 0, 0.226);
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out; 
+}
+.container:target{
+    visibility: visible;
+    opacity: 1;
+}
+.close{
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.close:hover{
+    color: red;
+}
+.box{
+    padding: 20px;
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    width: 300px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 615px;
+}
+.box h1{
+    top: 0;
+    color: orange;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+.content{
+    margin-top:70px;
+}
+.bar{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 6px;
+    width: 250px;
+    height: 20px;
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+}
+.submit{
+    border-color: white;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    height: 5vh;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+    color: orange;
+    width: 210px;
+    height: 5.5vh;
+    margin-top: 27px;
+}
+.container2{
+    background-color: rgba(0, 0, 0, 0.226);;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out; 
+}
+.container2:target{
+    visibility: visible;
+    opacity: 1;
+}
+.box2{
+    padding: 20px;
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 87vh;
+    width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 515px;
+}
+.box2 h1{
+    top: 0;
+    color: orange;
+    border-bottom: 2px solid;
+    padding-bottom: 50px;
+}
+.content2{
+    margin-top:90px;
+}
+.bar2{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 6px;
+    width: 250px;
+    height: 20px;
+}
+.bar2_age{
+    background-color: white;
+    color: orange;
+    padding: 5px;
+    border-radius: 6px;
+    height: 20px;
+    width: 25px;
+    margin-right: 220px;
+}
+.label2{
+    margin-right: 10px;
+    color: orange;
+}
+.close2{
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.close2:hover{
+    color: red;
+}
+.label{
+    color: orange;
+}
+.submit2{
+    border-color: white;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    width: 300px;
+    height: 6vh;
+    border-radius: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.submit2:hover{
+    background-color: white;
+    color: orange;
+    width: 320px;
+    height: 7vh;
+    margin-top: 37px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .bgimage{
+        height: 80%;
+        width: 80%;
+        margin-left: 200px;
+    }
+
+    .des{
+        margin-top: 1000px;
+        margin-left: 100px;
+        font-size: 40px;
+    }
+    .btn .b{
+        padding: 30px;
+        font-size: 30px;
+        width: 400px;
+    }
+    .lgphoto{
+        height: 50px;
+        width: 50px;
+    }
+    .box{
+        height: 350px;
+        width: 300px;
+        margin-top: 200px;
+        margin-left: 300px;
+    }
+    .box2{
+        height: 650px;
+        width: 500px;
+        margin-top: 200px;
+        margin-left: 230px;
+    }
+    .submit{
+        height: 50px;
+    }
+    .submit2{
+        height: 50px;
+    }
+}
